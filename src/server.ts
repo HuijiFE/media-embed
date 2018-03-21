@@ -25,19 +25,7 @@ const app: express.Express = express();
 app
   .use(compression())
   .use(cors()) // CORS
-  .use(logger('dev'))
-  .use((request, response, next) => {
-    // CORS 跨域
-    response.header('Access-Control-Allow-Origin', '*');
-    response.header(
-      'Access-Control-Allow-Headers',
-      'Origin, X-Requested-With, Content-Type, Accept'
-    );
-    next();
-  })
-  .use('/', (request, response, next) =>
-    response.send('Template Express on TypeScript.')
-  );
+  .use(logger('dev'));
 
 Object.entries(routers).forEach(([name, router]) => {
   app.use(`/${name}`, router);
