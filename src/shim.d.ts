@@ -4,4 +4,5 @@
 
 declare interface Error {
   status?: number;
+  data?: any;
 }

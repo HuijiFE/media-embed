@@ -2,4 +2,4 @@
  * All routers
  */
 
-export { default as hello } from './controllers/hello/index';
+export { default as media } from './controllers/media/index';

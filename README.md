@@ -1,6 +1,6 @@
-# Template Express
+# Media Embed
 
-> A template for static single page, based on parcel.js, typescript and sass.
+> Covert web page url of media to `<iframe>` tag and get info of media.
 
 ## Usage
 

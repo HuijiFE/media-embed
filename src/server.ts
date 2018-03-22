@@ -4,6 +4,12 @@
 
 import * as fs from 'fs';
 import * as dotenv from 'dotenv';
+if (fs.existsSync('.env')) {
+  dotenv.config({ path: '.env' });
+} else {
+  dotenv.config({ path: '.env.example' });
+}
+
 import * as express from 'express';
 import * as compression from 'compression';
 import * as cors from 'cors';
@@ -12,12 +18,6 @@ import { Server } from 'http';
 import * as routers from './routers';
 
 // region ======== Express Configuration ========
-
-if (fs.existsSync('.env')) {
-  dotenv.config({ path: '.env' });
-} else {
-  dotenv.config({ path: '.env.example' });
-}
 
 const port: string | number = process.env.PORT || 7100;
 
@@ -61,19 +61,20 @@ if (process.env.NODE_ENV === 'development') {
 
 // production error handler
 // no stacktrace leaked to user
-app.use(
-  (
-    error: Error,
-    request: express.Request,
-    response: express.Response,
-    next: express.NextFunction
-  ) =>
-    response.status(error.status || 500).json({
-      status: 'error',
-      message: error.message,
-      error: {},
-    })
-);
+if (process.env.NODE_ENV === 'production') {
+  app.use(
+    (
+      error: Error,
+      request: express.Request,
+      response: express.Response,
+      next: express.NextFunction
+    ) =>
+      response.status(error.status || 500).json({
+        status: error.status,
+        message: error.message,
+      })
+  );
+}
 
 // endregion
 
