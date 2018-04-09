@@ -1,0 +1,161 @@
+{
+  "songs": [
+    {
+      "name": "金魚花火",
+      "id": 22818759,
+      "position": 9,
+      "alias": [],
+      "status": 0,
+      "fee": 8,
+      "copyrightId": 457010,
+      "disc": "1",
+      "no": 9,
+      "artists": [
+        {
+          "name": "大塚 愛",
+          "id": 17477,
+          "picId": 0,
+          "img1v1Id": 0,
+          "briefDesc": "",
+          "picUrl":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "img1v1Url":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "albumSize": 0,
+          "alias": [],
+          "trans": "",
+          "musicSize": 0
+        }
+      ],
+      "album": {
+        "name": "LOVE JAM",
+        "id": 2097983,
+        "type": "专辑",
+        "size": 11,
+        "picId": 18623527953053494,
+        "blurPicUrl":
+          "http://p1.music.126.net/V0bDArJt0oLqLoKO2CkwKQ==/18623527953053494.jpg",
+        "companyId": 0,
+        "pic": 18623527953053494,
+        "picUrl":
+          "http://p1.music.126.net/V0bDArJt0oLqLoKO2CkwKQ==/18623527953053494.jpg",
+        "publishTime": 1100620800007,
+        "description": "",
+        "tags": "",
+        "company": "(P)AVEX MUSIC CREATIVE INC.",
+        "briefDesc": "",
+        "artist": {
+          "name": "",
+          "id": 0,
+          "picId": 0,
+          "img1v1Id": 0,
+          "briefDesc": "",
+          "picUrl":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "img1v1Url":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "albumSize": 0,
+          "alias": [],
+          "trans": "",
+          "musicSize": 0
+        },
+        "songs": [],
+        "alias": [],
+        "status": 1,
+        "copyrightId": 457010,
+        "commentThreadId": "R_AL_3_2097983",
+        "artists": [
+          {
+            "name": "大塚 愛",
+            "id": 17477,
+            "picId": 0,
+            "img1v1Id": 0,
+            "briefDesc": "",
+            "picUrl":
+              "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1Url":
+              "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "albumSize": 0,
+            "alias": [],
+            "trans": "",
+            "musicSize": 0
+          }
+        ],
+        "subType": "录音室版",
+        "picId_str": "18623527953053494"
+      },
+      "starred": false,
+      "popularity": 95.0,
+      "score": 95,
+      "starredNum": 0,
+      "duration": 272766,
+      "playedNum": 0,
+      "dayPlays": 0,
+      "hearTime": 0,
+      "ringtone": "",
+      "crbt": null,
+      "audition": null,
+      "copyFrom": "",
+      "commentThreadId": "R_SO_4_22818759",
+      "rtUrl": null,
+      "ftype": 0,
+      "rtUrls": [],
+      "copyright": 0,
+      "mp3Url": null,
+      "mvid": 29086,
+      "rurl": null,
+      "bMusic": {
+        "name": null,
+        "id": 1282507357,
+        "size": 3273919,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 96000,
+        "playTime": 272766,
+        "volumeDelta": -1.55,
+        "dfsId_str": null
+      },
+      "rtype": 0,
+      "hMusic": {
+        "name": null,
+        "id": 1282507355,
+        "size": 10912958,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 320000,
+        "playTime": 272766,
+        "volumeDelta": -1.99,
+        "dfsId_str": null
+      },
+      "mMusic": {
+        "name": null,
+        "id": 1282507356,
+        "size": 5456502,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 160000,
+        "playTime": 272766,
+        "volumeDelta": -1.54,
+        "dfsId_str": null
+      },
+      "lMusic": {
+        "name": null,
+        "id": 1282507357,
+        "size": 3273919,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 96000,
+        "playTime": 272766,
+        "volumeDelta": -1.55,
+        "dfsId_str": null
+      },
+      "transNames": ["金鱼花火"]
+    }
+  ],
+  "equalizers": {},
+  "code": 200
+}

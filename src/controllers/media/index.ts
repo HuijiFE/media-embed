@@ -42,7 +42,7 @@ export interface MediaHandler {
    * Get the html embed code (iframe tag).
    * @param info Media info or media id
    */
-  embed(info: MediaInfo | string): string;
+  embed(info: MediaInfo | string, format?: string): string;
 }
 
 const handlersAll: {
@@ -94,10 +94,11 @@ export function mediaEmbed(
   next: express.NextFunction
 ): void {
   const url: URL.UrlWithParsedQuery = URL.parse(request.query.url, true);
+  const format: string = <string>request.query.format || 'html';
   const handler: MediaHandler | undefined = getHandler(url);
   if (handler) {
     try {
-      response.send(handler.embed(handler.id(url)));
+      response.send(handler.embed(handler.id(url), format));
     } catch (error) {
       next(error);
     }
@@ -113,10 +114,10 @@ export function mediaEmbed(
  */
 const media: express.Router = express.Router();
 
-// media info /media/info/<url>
+// media info /media/info?url=http%3A%2F%2Fmusic.163.com%2F%23%2Fsong%3Fid%3D33599431%26userid%3D35433341
 media.get('/info', mediaInfo);
 
-// media info /media/embed/<url>
+// media info /media/embed?url=http%3A%2F%2Fmusic.163.com%2F%23%2Fsong%3Fid%3D33599431%26userid%3D35433341&format=json|html
 media.get('/embed', mediaEmbed);
 
 export default media;

@@ -9,6 +9,8 @@ import { MediaHandler, MediaInfo } from './index';
 export const VIDEO_API_URL_YOUKU: string = 'https://api.youku.com/videos/show.json';
 const clientId: string | undefined = process.env.YOUKU_CLIENT_ID;
 
+// region ======== MODEL ========
+
 /**
  * User 上传用户
  */
@@ -79,7 +81,7 @@ export interface VideoInfoYoukuShowObject {
 }
 
 /**
- * Youku Video Info Model.
+ * 视频信息
  */
 export interface VideoInfoYouku {
   /**
@@ -182,6 +184,8 @@ export interface VideoInfoYouku {
    */
   show: VideoInfoYoukuShowObject;
 }
+
+// endregion
 
 export function videoYoukuId(url: URL.UrlWithParsedQuery): string {
   let videoId: string | undefined;

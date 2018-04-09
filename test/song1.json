@@ -1,0 +1,144 @@
+{
+  "songs": [
+    {
+      "name": "A Dead Leaf Dance",
+      "id": 16468497,
+      "position": 3,
+      "alias": [],
+      "status": 0,
+      "fee": 0,
+      "copyrightId": 405025,
+      "disc": "1",
+      "no": 3,
+      "artists": [
+        {
+          "name": "As the Stars Fall",
+          "id": 86496,
+          "picId": 0,
+          "img1v1Id": 0,
+          "briefDesc": "",
+          "picUrl":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "img1v1Url":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "albumSize": 0,
+          "alias": [],
+          "trans": "",
+          "musicSize": 0
+        }
+      ],
+      "album": {
+        "name": "Tempus Fugit",
+        "id": 1519205,
+        "type": "专辑",
+        "size": 8,
+        "picId": 2533274791100188,
+        "blurPicUrl":
+          "http://p1.music.126.net/JRp8fbMbfx73pqZgSsb-uQ==/2533274791100188.jpg",
+        "companyId": 0,
+        "pic": 2533274791100188,
+        "picUrl": "http://p1.music.126.net/JRp8fbMbfx73pqZgSsb-uQ==/2533274791100188.jpg",
+        "publishTime": 1272211200000,
+        "description": "",
+        "tags": "",
+        "company": "Low Wood",
+        "briefDesc": "",
+        "artist": {
+          "name": "",
+          "id": 0,
+          "picId": 0,
+          "img1v1Id": 0,
+          "briefDesc": "",
+          "picUrl":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "img1v1Url":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "albumSize": 0,
+          "alias": [],
+          "trans": "",
+          "musicSize": 0
+        },
+        "songs": [],
+        "alias": [],
+        "status": 1,
+        "copyrightId": 0,
+        "commentThreadId": "R_AL_3_1519205",
+        "artists": [
+          {
+            "name": "As the Stars Fall",
+            "id": 86496,
+            "picId": 0,
+            "img1v1Id": 0,
+            "briefDesc": "",
+            "picUrl":
+              "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1Url":
+              "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "albumSize": 0,
+            "alias": [],
+            "trans": "",
+            "musicSize": 0
+          }
+        ],
+        "subType": "录音室版"
+      },
+      "starred": false,
+      "popularity": 100.0,
+      "score": 100,
+      "starredNum": 0,
+      "duration": 240169,
+      "playedNum": 0,
+      "dayPlays": 0,
+      "hearTime": 0,
+      "ringtone": "",
+      "crbt": null,
+      "audition": null,
+      "copyFrom": "",
+      "commentThreadId": "R_SO_4_16468497",
+      "rtUrl": null,
+      "ftype": 0,
+      "rtUrls": [],
+      "copyright": 2,
+      "mvid": 0,
+      "mp3Url": null,
+      "rurl": null,
+      "hMusic": null,
+      "mMusic": {
+        "name": "",
+        "id": 1345271073,
+        "size": 5764119,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 192000,
+        "playTime": 240169,
+        "volumeDelta": 0.0
+      },
+      "lMusic": {
+        "name": "",
+        "id": 1345271074,
+        "size": 3842760,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 128000,
+        "playTime": 240169,
+        "volumeDelta": 0.0
+      },
+      "bMusic": {
+        "name": "",
+        "id": 1345271074,
+        "size": 3842760,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 128000,
+        "playTime": 240169,
+        "volumeDelta": 0.0
+      },
+      "rtype": 0
+    }
+  ],
+  "equalizers": { "16468497": "rock" },
+  "code": 200
+}

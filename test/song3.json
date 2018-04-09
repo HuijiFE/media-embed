@@ -1,0 +1,154 @@
+{
+  "songs": [
+    {
+      "name": "镜夜",
+      "id": 155847,
+      "position": 2,
+      "alias": [],
+      "status": 0,
+      "fee": 0,
+      "copyrightId": 0,
+      "disc": "1",
+      "no": 2,
+      "artists": [
+        {
+          "name": "V.K克",
+          "id": 5342,
+          "picId": 0,
+          "img1v1Id": 0,
+          "briefDesc": "",
+          "picUrl":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "img1v1Url":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "albumSize": 0,
+          "alias": [],
+          "trans": "",
+          "musicSize": 0
+        }
+      ],
+      "album": {
+        "name": "镜夜",
+        "id": 15694,
+        "type": "专辑",
+        "size": 15,
+        "picId": 130841883718453,
+        "blurPicUrl":
+          "http://p1.music.126.net/wu0Lu5JtOFgLdxsFScSnZg==/130841883718453.jpg",
+        "companyId": 0,
+        "pic": 130841883718453,
+        "picUrl": "http://p1.music.126.net/wu0Lu5JtOFgLdxsFScSnZg==/130841883718453.jpg",
+        "publishTime": 1231084800000,
+        "description": "",
+        "tags": "",
+        "company": "永铄音乐",
+        "briefDesc": "",
+        "artist": {
+          "name": "",
+          "id": 0,
+          "picId": 0,
+          "img1v1Id": 0,
+          "briefDesc": "",
+          "picUrl":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "img1v1Url":
+            "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+          "albumSize": 0,
+          "alias": [],
+          "trans": "",
+          "musicSize": 0
+        },
+        "songs": [],
+        "alias": [],
+        "status": 1,
+        "copyrightId": 0,
+        "commentThreadId": "R_AL_3_15694",
+        "artists": [
+          {
+            "name": "V.K克",
+            "id": 5342,
+            "picId": 0,
+            "img1v1Id": 0,
+            "briefDesc": "",
+            "picUrl":
+              "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1Url":
+              "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "albumSize": 0,
+            "alias": [],
+            "trans": "",
+            "musicSize": 0
+          }
+        ],
+        "subType": "录音室版"
+      },
+      "starred": false,
+      "popularity": 100.0,
+      "score": 100,
+      "starredNum": 0,
+      "duration": 276271,
+      "playedNum": 0,
+      "dayPlays": 0,
+      "hearTime": 0,
+      "ringtone": "",
+      "crbt": null,
+      "audition": null,
+      "copyFrom": "",
+      "commentThreadId": "R_SO_4_155847",
+      "rtUrl": null,
+      "ftype": 0,
+      "rtUrls": [],
+      "copyright": 2,
+      "mvid": 5458134,
+      "hMusic": {
+        "name": "镜夜",
+        "id": 29417039,
+        "size": 11076382,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 320000,
+        "playTime": 276271,
+        "volumeDelta": 0.0
+      },
+      "mMusic": {
+        "name": "镜夜",
+        "id": 29417040,
+        "size": 5549918,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 160000,
+        "playTime": 276271,
+        "volumeDelta": 0.163763
+      },
+      "lMusic": {
+        "name": "镜夜",
+        "id": 29417041,
+        "size": 3339332,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 96000,
+        "playTime": 276271,
+        "volumeDelta": 0.171601
+      },
+      "bMusic": {
+        "name": "镜夜",
+        "id": 29417041,
+        "size": 3339332,
+        "extension": "mp3",
+        "sr": 44100,
+        "dfsId": 0,
+        "bitrate": 96000,
+        "playTime": 276271,
+        "volumeDelta": 0.171601
+      },
+      "rtype": 0,
+      "rurl": null,
+      "mp3Url": null
+    }
+  ],
+  "equalizers": {},
+  "code": 200
+}
