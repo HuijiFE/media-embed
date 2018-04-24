@@ -194,7 +194,7 @@ export function videoYoukuId(url: URL.UrlWithParsedQuery): string {
       .split('/')
       .find(
         node =>
-          node.startsWith('id_') && (node.endsWith('==') || node.endsWith('==.html'))
+          node.startsWith('id_') && (node.endsWith('==') || node.endsWith('==.html')),
       );
   }
   if (!videoId) {
@@ -219,17 +219,17 @@ export async function videoYoukuInfo(url: URL.UrlWithParsedQuery): Promise<Media
           ext: 'show',
         },
         timeout: 2048,
-      }
+      },
     );
 
+    // return <any>response.data;
     return {
-      platform: 'youku',
+      platform: 'youku.com',
       format: 'video',
       id: videoId,
-      title:
-        response.data.show && response.data.show.name
-          ? `${response.data.title} - ${response.data.show.name}`
-          : `${response.data.title}`,
+      title: response.data.title,
+      collection:
+        response.data.show && response.data.show.name ? response.data.show.name : '',
       description: response.data.description,
       link: `https://v.youku.com/v_show/id_${videoId}.html`,
       thumbnail: response.data.bigThumbnail || response.data.thumbnail || '',
@@ -247,10 +247,10 @@ export async function videoYoukuInfo(url: URL.UrlWithParsedQuery): Promise<Media
   }
 }
 
-export function videoYoukuEmbed(info: MediaInfo | string): string {
-  const id: string = typeof info === 'string' ? info : info.id;
+export function videoYoukuEmbed(infoOrId: MediaInfo | string): string {
+  const id: string = typeof infoOrId === 'string' ? infoOrId : infoOrId.id;
 
-  return `<iframe height="498" width="510" src="http://player.youku.com/embed/${id}" frameborder="0" allowfullscreen></iframe>`;
+  return `<iframe height="498" width="510" src="https://player.youku.com/embed/${id}" frameborder="0" allowfullscreen></iframe>`;
 }
 
 const videoYouku: MediaHandler = {

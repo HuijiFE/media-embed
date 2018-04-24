@@ -4,8 +4,8 @@
   "description": "A template for express.js, based on typescript.",
   "main": "index.js",
   "scripts": {
-    "frame": "yarn || npm i",
-    "dev": "tsc && npm run start -- --watch && tsc -w",
+    "frame": "yarn",
+    "dev": "tsc && yarn start --watch && tsc -w",
     "start": "pm2 start dist/server.js --name template-express-ts -f -x",
     "stop": "pm2 stop template-express-ts --watch && pm2 delete template-express-ts && pm2 kill",
     "tsc": "tsc",

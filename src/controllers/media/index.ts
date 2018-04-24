@@ -2,6 +2,7 @@ import * as express from 'express';
 import * as URL from 'url';
 
 import videoYouku from './videoYouku';
+import music163 from './music163';
 
 /**
  * 通用媒体信息
@@ -11,6 +12,8 @@ export interface MediaInfo {
   format: 'video' | 'audio';
   id: string;
   title: string;
+  // 专辑或剧集
+  collection: string;
   description: string;
   /**
    * 原页面链接
@@ -40,19 +43,19 @@ export interface MediaHandler {
 
   /**
    * Get the html embed code (iframe tag).
-   * @param info Media info or media id
+   * @param infoOrId Media info or media id
    */
-  embed(info: MediaInfo | string, format?: string): string;
+  embed(infoOrId: MediaInfo | string, format?: string): string;
 }
 
 const handlersAll: {
   [platform: string]: MediaHandler;
 } = {
-  'music.163.com': videoYouku,
-  'y.qq.com': videoYouku,
-  'v.qq.com': videoYouku,
   'youku.com': videoYouku,
   'tudou.com': videoYouku,
+  'music.163.com': music163,
+  'y.qq.com': videoYouku,
+  'v.qq.com': videoYouku,
 };
 
 /**
@@ -72,7 +75,7 @@ export function getHandler(url: URL.UrlWithParsedQuery): MediaHandler | undefine
 export function mediaInfo(
   request: express.Request,
   response: express.Response,
-  next: express.NextFunction
+  next: express.NextFunction,
 ): void {
   const url: URL.UrlWithParsedQuery = URL.parse(request.query.url, true);
   const handler: MediaHandler | undefined = getHandler(url);
@@ -91,7 +94,7 @@ export function mediaInfo(
 export function mediaEmbed(
   request: express.Request,
   response: express.Response,
-  next: express.NextFunction
+  next: express.NextFunction,
 ): void {
   const url: URL.UrlWithParsedQuery = URL.parse(request.query.url, true);
   const format: string = <string>request.query.format || 'html';
